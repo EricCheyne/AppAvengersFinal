@@ -1,4 +1,4 @@
-package com.example.appavengersfinal
+package com.appavengersfinal.appavengersfinal
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

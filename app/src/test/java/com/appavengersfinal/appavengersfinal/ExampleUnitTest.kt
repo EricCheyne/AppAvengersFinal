@@ -1,4 +1,4 @@
-package com.example.appavengersfinal
+package com.appavengersfinal.appavengersfinal
 
 import org.junit.Test
 

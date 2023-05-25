@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="babyBlue">#89CFF0</color>
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="eggShell">#ECECEC</color>
+    <color name="blue">#0000FF</color>
+    <color name="coolerBlue">#1F375D</color>
+    <color name="awesomeGrey">#878787</color>
+    <color name="backgroundStartColor">#ea4416</color>
+    <color name="backgroundEndColor">#eac316</color>
+    <color name="editTextStartColor">#da5314</color>
+    <color name="editTextEndColor">#210635</color>
 </resources>

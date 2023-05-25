@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPSC 411 Proyecto Final</string>
+    <string name="available_balance">Balance disponible</string>
+    <string name="positivity">Positividad</string>
+    <string name="transaction_amount">Importe de la transacción</string>
+    <string name="transaction_name">Nombre de la transacción</string>
+    <string name="add_transaction">Agregar transacción</string>
+    <string name="expense">Gastos</string>
+    <string name="budget">Presupuesto</string>
+    <string name="recent_transactions">Transacciones recientes</string>
+</resources>

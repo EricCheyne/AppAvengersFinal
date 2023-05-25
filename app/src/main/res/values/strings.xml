@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">AppAvengersFinal</string>
+    <string name="app_name">CPSC 411 Final Project</string>
+    <string name="available_balance">available balance</string>
+    <string name="budget_title" translatable="false">Tuffy Saves</string>
+    <string name="positivity">positivity</string>
+    <string name="transaction_amount">Transaction Amount</string>
+    <string name="transaction_name">Transaction Name</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="expense">Expense</string>
+    <string name="budget">Budget</string>
+    <string name="recent_transactions">Recent Transactions:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

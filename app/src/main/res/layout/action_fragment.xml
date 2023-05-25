@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eggShell"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Transaction name:"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/itemLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/itemTextInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_text"
+                        android:drawablePadding="12dp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amount:"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/amountLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/amountTextInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="12dp"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_money"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Add Transaction"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp">
+        </Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
